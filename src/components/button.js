@@ -2,17 +2,17 @@ import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 
 
-const Button = ()=>{
+const Button = () => {
 
-    
 
-    return(
-        <TouchableOpacity style={estilo.botao}> 
+
+    return (
+        <TouchableOpacity style={estilo.botao}>
 
             <Text >
                 LOGIN
             </Text>
-            
+
 
         </TouchableOpacity>
     )
@@ -21,11 +21,11 @@ const Button = ()=>{
 
 //Style
 const estilo = StyleSheet.create({
-    botao:{
+    botao: {
         backgroundColor: 'red',
         padding: 30,
         borderRadius: 30,
-        
+
     }
 })
 

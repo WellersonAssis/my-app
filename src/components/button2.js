@@ -2,17 +2,17 @@ import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 
 
-const Button2 = ()=>{
+const Button2 = () => {
 
-    
 
-    return(
-        <TouchableOpacity style={estilo.botao}> 
+
+    return (
+        <TouchableOpacity style={estilo.botao}>
 
             <Text >
                 CADASTRO
             </Text>
-            
+
 
         </TouchableOpacity>
     )
@@ -21,16 +21,13 @@ const Button2 = ()=>{
 
 //Style
 const estilo = StyleSheet.create({
-    botao:{
+    botao: {
         backgroundColor: 'yellow',
         padding: 30,
         borderRadius: 30,
-        
+
     }
 })
-
-
-
 
 
 export default Button2
