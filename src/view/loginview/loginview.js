@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native"
 
 
 
-const Loginview = ()=> {
+const Loginview = () => {
 
     return (
 
