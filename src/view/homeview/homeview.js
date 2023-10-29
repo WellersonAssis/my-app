@@ -16,6 +16,8 @@ const Homeview = ({ navigation }) => {
 
             <Text style={styles.texto}>CyberGames</Text>
 
+            <StatusBar style="auto" />
+            <View style={styles.buttonContainer}>
             <TouchableOpacity style={styles.botao} onPress={() => navigation.navigate('Login')}>
                 <Text >
                     LOGIN
@@ -26,7 +28,7 @@ const Homeview = ({ navigation }) => {
                     CADASTRO
                 </Text>
             </TouchableOpacity>
-            <StatusBar style="auto" />
+            </View>
         </View>
     );
 }
@@ -43,21 +45,22 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: 'black',
     },
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: "space-evenly",
+       
+    },
     botao: {
         backgroundColor: 'red',
         padding: 30,
         borderRadius: 30,
-
-    },
-    botao2: {
+        
+      },
+      botao2: {
         backgroundColor: 'yellow',
         padding: 30,
         borderRadius: 30,
-
-    },
-    buttonContainer: {
-        flexDirection: 'row',
-    },
+      },
 
 
 });
