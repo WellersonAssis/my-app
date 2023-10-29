@@ -26,6 +26,20 @@ const Cadastroview = ({ navagation })=> {
             onChangeText={text => setText(text)}/>
         </Card>
         <Card>
+        <Text variant="displaySmall">E-mail</Text>
+        <TextInput
+            label="Insira seu e-mail..."
+            mode="outlined"
+            onChangeText={text => setText(text)}/>
+        </Card>
+        <Card>
+        <Text variant="displaySmall">Telefone</Text>
+        <TextInput
+            label="Insira seu telefone..."
+            mode="outlined"
+            onChangeText={text => setText(text)}/>
+        </Card>
+        <Card>
         <Text variant="displaySmall">CPF</Text>
         <TextInput
             label="insira o seu CPF..."
@@ -81,7 +95,7 @@ const estilo = StyleSheet.create({
     Texto: {
         fontSize: 20,
         alignSelf: 'center',
-        marginTop: 25
+        marginTop: 10
     },
     botao: {
         marginTop: 20
