@@ -11,10 +11,10 @@ const Loginview = ({ navigation }) => {
 
         
 
-    <View>
+<View source= {{ uri: 'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/2x1_SuperMarioHub_image1600w.jpg'}}>
     <Card>
 
-    <Card.Cover source={{ url:'' }}/>
+    <Card.Cover source={{ uri:'https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/2x1_SuperMarioHub_image1600w.jpg' }}/>
 
             <Text style={estilo.Texto}>Já é um CyberGame?... Entra ai!</Text>
             
@@ -42,7 +42,7 @@ const Loginview = ({ navigation }) => {
           <Text>ENTRAR</Text>
         </Button>
     </Card>
-    </View>
+</View>
 
 
     )
@@ -54,7 +54,7 @@ const estilo = StyleSheet.create({
     Texto: {
         fontSize: 28,
         alignSelf: 'center',
-        marginTop: 50
+        marginTop: 5
     },
     botao: {
         marginTop: 40,

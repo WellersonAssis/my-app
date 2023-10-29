@@ -12,7 +12,7 @@ const Homeview = ({ navigation }) => {
     return (
         <View style={styles.container}>
 
-            <Header />
+            
 
             <Text style={styles.texto}>CyberGames</Text>
 
@@ -35,15 +35,15 @@ const Homeview = ({ navigation }) => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 2,
-        backgroundColor: 'white',
+        flex: 5,
+        backgroundColor: 'blue',
         alignItems: 'center',
         justifyContent: 'center',
     },
     texto: {
-        fontSize: 50,
+        fontSize: 60,
         fontWeight: 'bold',
-        color: 'black',
+        color: 'white',
     },
     buttonContainer: {
         flexDirection: 'row',
@@ -52,13 +52,13 @@ const styles = StyleSheet.create({
     },
     botao: {
         backgroundColor: 'red',
-        padding: 30,
+        padding: 40,
         borderRadius: 30,
         
       },
       botao2: {
         backgroundColor: 'yellow',
-        padding: 30,
+        padding: 40,
         borderRadius: 30,
       },
 

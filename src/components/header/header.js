@@ -19,7 +19,7 @@ const estilo = StyleSheet.create({
         width: '100%',
         position: 'absolute',
         top: 0,
-        padding: 10,
+        padding: 1,
         alignItems: 'center'
         
     },
