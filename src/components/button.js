@@ -3,12 +3,12 @@ import { StyleSheet, Text, TouchableOpacity } from "react-native";
 
 
 
-const Button = () => {
+const Button = ({ navigation }) => {
 
 
 
     return (
-        <TouchableOpacity style={estilo.botao}>
+        <TouchableOpacity style={estilo.botao} onPress={ ()=> navigation.navigate('Login')}>
 
             <Text >
                 LOGIN

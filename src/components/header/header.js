@@ -15,7 +15,7 @@ const Header = () => {
 
 const estilo = StyleSheet.create({
     cab: {
-        backgroundColor: 'red',
+        backgroundColor: 'blue',
         width: '100%',
         position: 'absolute',
         top: 0,
@@ -26,7 +26,8 @@ const estilo = StyleSheet.create({
 
     cabTexto: {
         fontSize: 20,
-        fontWeight: "bold"
+        fontWeight: "bold",
+        color: 'white'
         
 
     }

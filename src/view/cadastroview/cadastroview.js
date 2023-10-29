@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native"
 
 
 
-const Cadastroview = ()=> {
+const Cadastroview = ({ navagation })=> {
 
     return (
 
@@ -14,18 +14,17 @@ const Cadastroview = ()=> {
 
     )
 
-    const estilo = StyleSheet.create({
-
-        Texto: {
-            flex: 1,
-            fontSize: 20,
-            alignSelf: 'center',
-            marginTop: 25
-        }
-
-    })
-
-
 }
+
+const estilo = StyleSheet.create({
+
+    Texto: {
+        fontSize: 20,
+        alignSelf: 'center',
+        marginTop: 25
+    }
+
+})
+
 
 export default Cadastroview
