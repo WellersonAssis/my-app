@@ -47,16 +47,24 @@ const Cadastroview = ({ navagation })=> {
             onChangeText={text => setText(text)}/>
         </Card>
         <Card>
-        <Text variant="displaySmall">Logradouro</Text>
+        <Text variant="displaySmall">CEP</Text>
         <TextInput
-            label="Insira o seu logradouro..."
+            label="Insira o seu CEP..."
             mode="outlined"
             onChangeText={text => setText(text)}/>
+        
         </Card>
         <Card>
         <Text variant="displaySmall">Estado</Text>
         <TextInput
             label="Insira o seu estado..."
+            mode="outlined"
+            onChangeText={text => setText(text)}/>
+        </Card>
+        <Card>
+        <Text variant="displaySmall">Logradouro</Text>
+        <TextInput
+            label="Insira o seu logradouro..."
             mode="outlined"
             onChangeText={text => setText(text)}/>
         </Card>
