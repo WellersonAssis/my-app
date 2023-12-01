@@ -3,6 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack"
 import Cadastroview from "../../view/cadastroview/cadastroview"
 import Homeview from "../../view/homeview/homeview"
 import Loginview from "../../view/loginview/loginview"
+import DashView from "../DashView/dashview"
 
 
 
@@ -18,6 +19,8 @@ const Navigator = ()=> {
                 <stack.Screen name="Home" component={Homeview}/>
                 <stack.Screen name="Cadastro" component={Cadastroview}/>
                 <stack.Screen name="Login" component={Loginview}/>
+                <stack.Screen name="Dash" component={DashView}/>
+
 
             </stack.Navigator>
         </NavigationContainer>

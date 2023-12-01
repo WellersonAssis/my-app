@@ -1,12 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Navigator from './src/components/navigator/navigator';
+import { AuthContext } from './src/components/AuthContext';
+import 'react-native-gesture-handler';
 
 
 export default function App() {
   return (
 
-    <Navigator />
+
+  <AuthContext>
+
+      <Navigator />
+    
+  </AuthContext>
+
+        
+
+  
+   
 
   );
 }
